@@ -34,8 +34,10 @@ Disfruto construyendo el puente entre el dato y la decisión: traducir necesidad
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
+| **[accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm)** 🐝 | Enjambre de 3 agentes Claude para automatización contable real, desarrollado con evals: golden set, gates de no-regresión y verificador independiente | Claude · Multi-agente · Evals |
+| **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)** 🐝 | Enjambre multi-agente para analítica de audiencias — ~70% reutilizado del enjambre contable: un dominio nuevo en días, con caso real (Google Trends) | Python · Claude · Multi-agente |
 | **[portfolio-juan-luis](https://github.com/jleonceo/portfolio-juan-luis)** 🌐 | Portfolio web desplegado en [juanluisleon.vercel.app](https://juanluisleon.vercel.app) — el ecosistema TechAcces explicado | React · Vite · Vercel |
-| **[llm-eval-contable](https://github.com/jleonceo/llm-eval-contable)** 🧪 | Eval-driven development para una skill contable LLM: de 66% a 94% en 5 iteraciones, dataset de 50 casos | Python · Claude API · Evals |
+| **[llm-eval-contable](https://github.com/jleonceo/llm-eval-contable)** 🧪 | Eval-driven development para una skill contable LLM: de 66% a 88% medido en 5 iteraciones (94% proyectado), dataset de 50 casos | Python · Claude API · Evals |
 | **[analisis-contable](https://github.com/jleonceo/analisis-contable)** | Análisis financiero end-to-end: cuenta de resultados, tesorería y simulador de escenarios sobre TechAcces SL | Python · MySQL · Pandas |
 | **[lead-scoring-ml](https://github.com/jleonceo/lead-scoring-ml)** | Modelo predictivo para priorizar leads comerciales (XGBoost · AUC 0.98 · F1 0.93) | Python · ML · Jupyter |
 | **[RFM-Customer-Analytics](https://github.com/jleonceo/RFM-Customer-Analytics)** | Segmentación de clientes por Recencia, Frecuencia y Valor monetario con estrategias de negocio asociadas | Python · Pandas |
@@ -48,7 +50,7 @@ Disfruto construyendo el puente entre el dato y la decisión: traducir necesidad
 - **Máster en IA y Automatización** — Visual Business School (2026)
 - **Grado en Ciencia de Datos** — Universitat Carlemany (2º año)
 - Construyendo un ecosistema completo de **automatización contable**: MySQL + Power BI + n8n + Claude
-- Entrenando AI Skills propias para análisis financiero y reporting
+- Evolucionando **enjambres de AI Skills** con evaluación continua: golden sets, simulaciones y puertas de no-regresión
 
 ---
 
