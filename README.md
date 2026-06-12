@@ -20,13 +20,19 @@ Disfruto construyendo el puente entre el dato y la decisión: traducir necesidad
 `Power BI` · `DAX avanzado` · `Modelado dimensional` · `Star Schema`
 
 **Bases de datos**
-`SQL avanzado` · `MySQL` · `Microsoft Access` · `Modelado relacional`
+`SQL avanzado` · `MySQL` · `Modelado relacional`
 
 **Programación y ML**
-`Python` · `Pandas` · `Scikit-learn` · `Jupyter`
+`Python` · `Pandas` · `Scikit-learn` · `XGBoost` · `Jupyter`
 
-**IA y automatización**
-`Claude (skills personalizadas)` · `MCP` · `n8n` · `Prompt engineering`
+**Sistemas de agentes IA**
+`Claude Code` · `Enjambres multi-agente` · `AI Skills personalizadas` · `RAG` · `MCP` · `Prompt engineering`
+
+**Evaluación de sistemas LLM**
+`Eval-driven development` · `Golden sets` · `Simulaciones` · `Puertas de no-regresión` · `Datos sintéticos de test`
+
+**Automatización**
+`n8n` · `Claude API` · `Hooks y workflows`
 
 ---
 
