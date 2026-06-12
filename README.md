@@ -45,7 +45,7 @@ Disfruto construyendo el puente entre el dato y la decisión: traducir necesidad
 | **[portfolio-juan-luis](https://github.com/jleonceo/portfolio-juan-luis)** 🌐 | Portfolio web desplegado en [juanluisleon.vercel.app](https://juanluisleon.vercel.app) — el ecosistema TechAcces explicado | React · Vite · Vercel |
 | **[llm-eval-contable](https://github.com/jleonceo/llm-eval-contable)** 🧪 | Eval-driven development para una skill contable LLM: de 66% a 88% medido en 5 iteraciones (94% proyectado), dataset de 50 casos | Python · Claude API · Evals |
 | **[analisis-contable](https://github.com/jleonceo/analisis-contable)** | Análisis financiero end-to-end: cuenta de resultados, tesorería y simulador de escenarios sobre TechAcces SL | Python · MySQL · Pandas |
-| **[lead-scoring-ml](https://github.com/jleonceo/lead-scoring-ml)** | Modelo predictivo para priorizar leads comerciales (XGBoost · AUC 0.98 · F1 0.93) | Python · ML · Jupyter |
+| **[lead-scoring-ml](https://github.com/jleonceo/lead-scoring-ml)** | Modelo predictivo para priorizar leads comerciales (XGBoost · AUC 0.92 verificado con script de réplica) | Python · ML · Jupyter |
 | **[RFM-Customer-Analytics](https://github.com/jleonceo/RFM-Customer-Analytics)** | Segmentación de clientes por Recencia, Frecuencia y Valor monetario con estrategias de negocio asociadas | Python · Pandas |
 | **[accident-intelligent-agent](https://github.com/jleonceo/accident-intelligent-agent)** | Predicción de gravedad de accidentes de tráfico en Madrid: ETL, EDA y modelado predictivo | Python · ML · ETL |
 
