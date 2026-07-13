@@ -65,7 +65,7 @@ Y el control interno como herramienta forense: **[control-interno-fraude-ia](htt
 | **[RFM-Customer-Analytics](https://github.com/jleonceo/RFM-Customer-Analytics)** | Segmentación de clientes por Recencia, Frecuencia y Valor monetario, con estrategias de negocio asociadas | Python · Pandas |
 | **[accident-intelligent-agent](https://github.com/jleonceo/accident-intelligent-agent)** | Predicción de gravedad de accidentes de tráfico en Madrid: ETL, EDA y modelado predictivo | Python · ML · ETL |
 
-Todo junto, explicado y desplegado, en **[juanluisleon.vercel.app](https://juanluisleon.vercel.app)**.
+Todo junto, explicado y desplegado, en **[portfolio-juan-luis](https://github.com/jleonceo/portfolio-juan-luis)** ([juanluisleon.vercel.app](https://juanluisleon.vercel.app)).
 
 ---
 
