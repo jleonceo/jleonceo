@@ -52,6 +52,8 @@ Y el mismo método portado a otro dominio: **[audience-analyst-swarm](https://gi
 
 Y el vertical financiero llevado a herramienta: **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, previsión de caja con backtesting, ratios y aging (determinista, sin dependencias).
 
+Y el control interno como herramienta forense: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)**, detección de fraude contable con aritmética dentro de un marco COSO-lite (determinista, sin dependencias).
+
 ---
 
 ### Datos y machine learning
