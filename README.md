@@ -36,13 +36,13 @@ Construyo el puente entre el dato y la decisión: traducir necesidades de negoci
 
 ---
 
-### Sistemas de IA: una serie para construir y evaluar (N0 → N4)
+### Sistemas de IA: una serie para construir y evaluar (N0 → N3)
 
 Estos repos cuentan, en orden, cómo construir sistemas con varios agentes de IA en los que se puede confiar. Cada uno enlaza a los demás: se pueden leer como un recorrido.
 
 - **N0 · [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web):** qué es un asistente de IA y cómo se le instruye, sin tecnicismos.
 - **N1 · [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable):** evaluar una skill como se examina a un alumno, de 66% a 100% medido.
-- **N2 · [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm):** un enjambre de tres agentes contables de principio a fin, con sus caídas explicadas.
+- **N2 · [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm):** un enjambre de cuatro agentes contables de principio a fin, con sus caídas explicadas.
 - **N2 · [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia):** el enrutado multi-agente, a qué agente va cada petición sin romper al crecer.
 - **N3 · [gobernanza-skills-analiticas](https://github.com/jleonceo/gobernanza-skills-analiticas):** las cinco reglas para gobernar skills, cada una con su cicatriz real.
 - **N3 · [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia):** comprobar la coherencia del estado por pura aritmética, sin IA.
@@ -65,7 +65,7 @@ Y el control interno como herramienta forense: **[control-interno-fraude-ia](htt
 | **[RFM-Customer-Analytics](https://github.com/jleonceo/RFM-Customer-Analytics)** | Segmentación de clientes por Recencia, Frecuencia y Valor monetario, con estrategias de negocio asociadas | Python · Pandas |
 | **[accident-intelligent-agent](https://github.com/jleonceo/accident-intelligent-agent)** | Predicción de gravedad de accidentes de tráfico en Madrid: ETL, EDA y modelado predictivo | Python · ML · ETL |
 
-Todo junto, explicado y desplegado, en **[portfolio-juan-luis](https://github.com/jleonceo/portfolio-juan-luis)** ([juanluisleon.vercel.app](https://juanluisleon.vercel.app)).
+Todo junto, explicado y desplegado, en **[juanluisleon.vercel.app](https://juanluisleon.vercel.app)**.
 
 ---
 
