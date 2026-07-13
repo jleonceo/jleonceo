@@ -50,6 +50,8 @@ Estos repos cuentan, en orden, cómo construir sistemas con varios agentes de IA
 
 Y el mismo método portado a otro dominio: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, analítica de audiencias reutilizando cerca del 70% del enjambre contable.
 
+Y el vertical financiero llevado a herramienta: **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, previsión de caja con backtesting, ratios y aging (determinista, sin dependencias).
+
 ---
 
 ### Datos y machine learning
