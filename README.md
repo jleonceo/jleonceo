@@ -16,6 +16,12 @@ Analista de datos con visión de negocio y trayectoria en control de gestión. T
 
 Construyo el puente entre el dato y la decisión. Traduzco necesidades de negocio en modelos de datos fiables, dashboards accionables y procesos automatizados.
 
+**Lo que he construido.** Sobre TechAcces SL, una empresa simulada con realismo, he levantado un sistema de contabilidad asistida por IA de principio a fin: del documento en bruto (una factura, una nómina, un extracto bancario) al asiento contabilizado. Lo llevan **51 AI Skills**, organizadas en enjambres de agentes por dominio (contabilidad, análisis, tesorería, control interno, marketing), sobre MySQL, Power BI, Python, n8n y Claude. El enjambre contable propone; una persona decide. En su última medición cerró en **93,3/100 con cero falsos positivos**, y cada versión pasa por evaluación continua antes de producción: golden sets, simulaciones a ciegas y puertas de no-regresión.
+
+Debajo hay una capa que no es IA: **código determinista que recomprueba el estado por pura aritmética**, inmune al cambio de modelo. Es lo que evita que un sistema con agentes se crea sus propias cifras. La misma arquitectura (enjambres gobernados por evals más verificación determinista) se transfiere a otros dominios: la porté a analítica de audiencias reutilizando cerca del 70% del enjambre contable, y a herramientas de previsión de caja y detección de fraude.
+
+Todo el método y su evidencia están abiertos en los repositorios de abajo. La contabilidad es el primer caso de uso; **el activo es el sistema, no el dominio.**
+
 ### Stack técnico
 
 **Business Intelligence**
@@ -98,6 +104,12 @@ Abierto a oportunidades en **Data Analytics** y **Business Intelligence** en **T
 Data analyst with a business perspective and a background in management control. I work in Business Intelligence, data modelling (MySQL, Star Schema) and training custom **AI Skills** for recurring analysis.
 
 I build the bridge between data and decision. I turn business needs into reliable data models, actionable dashboards and automated processes.
+
+**What I've built.** On TechAcces SL, a realistically simulated company, I built an AI-assisted accounting system end to end: from a raw document (an invoice, a payslip, a bank statement) to a booked entry. It runs on **51 custom AI Skills**, organised into agent swarms by domain (accounting, analytics, treasury, internal control, marketing), over MySQL, Power BI, Python, n8n and Claude. The accounting swarm proposes; a person decides. Its last measurement closed at **93.3/100 with zero false positives**, and every version goes through continuous evaluation before production: golden sets, blind simulations and no-regression gates.
+
+Underneath there is a layer that is not AI: **deterministic code that re-checks the state by pure arithmetic**, immune to model changes. It is what keeps an agent system from believing its own numbers. The same architecture (eval-governed swarms plus deterministic verification) transfers to other domains: I ported it to audience analytics reusing about 70% of the accounting swarm, and to cash-flow forecasting and fraud-detection tools.
+
+The whole method and its evidence are open in the repositories below. Accounting is the first use case; **the asset is the system, not the domain.**
 
 ### Tech stack
 
