@@ -4,15 +4,17 @@
 
 Tarragona / Barcelona · jleonceo@gmail.com · [LinkedIn](https://www.linkedin.com/in/jlleonrodriguez/)
 
+[Español](#español) · [English](#english)
+
 ---
+
+## Español
 
 ### Sobre mí
 
-Analista de datos con visión estratégica de negocio y trayectoria en control de gestión. Especializado en **Business Intelligence**, modelado de datos (MySQL, Star Schema) y entrenamiento de **AI Skills personalizadas** para el análisis recurrente.
+Analista de datos con visión de negocio y trayectoria en control de gestión. Trabajo en Business Intelligence, modelado de datos (MySQL, Star Schema) y entrenamiento de **AI Skills** a medida para el análisis recurrente.
 
-Construyo el puente entre el dato y la decisión: traducir necesidades de negocio en modelos de datos fiables, dashboards accionables y procesos automatizados.
-
----
+Construyo el puente entre el dato y la decisión. Traduzco necesidades de negocio en modelos de datos fiables, dashboards accionables y procesos automatizados.
 
 ### Stack técnico
 
@@ -26,7 +28,7 @@ Construyo el puente entre el dato y la decisión: traducir necesidades de negoci
 `Python` · `Pandas` · `Scikit-learn` · `XGBoost` · `Jupyter`
 
 **Sistemas de agentes IA**
-`Claude Code` · `Enjambres multi-agente` · `AI Skills personalizadas` · `RAG` · `MCP` · `Prompt engineering`
+`Claude Code` · `Enjambres multi-agente` · `AI Skills a medida` · `RAG` · `MCP` · `Prompt engineering`
 
 **Evaluación de sistemas LLM**
 `Eval-driven development` · `Golden sets` · `Simulaciones` · `Puertas de no-regresión` · `Datos sintéticos de test`
@@ -38,7 +40,7 @@ Construyo el puente entre el dato y la decisión: traducir necesidades de negoci
 
 ### Sistemas de IA: una serie para construir y evaluar (N0 → N3)
 
-Estos repos cuentan, en orden, cómo construir sistemas con varios agentes de IA en los que se puede confiar. Cada uno enlaza a los demás: se pueden leer como un recorrido.
+Estos repos cuentan, en orden, cómo construir sistemas con varios agentes de IA en los que se puede confiar. Cada uno enlaza a los demás. Se pueden leer como un recorrido.
 
 - **N0 · [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web):** qué es un asistente de IA y cómo se le instruye, sin tecnicismos.
 - **N1 · [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable):** evaluar una skill como se examina a un alumno, de 66% a 100% medido.
@@ -47,6 +49,7 @@ Estos repos cuentan, en orden, cómo construir sistemas con varios agentes de IA
 - **N3 · [gobernanza-skills-analiticas](https://github.com/jleonceo/gobernanza-skills-analiticas):** las cinco reglas para gobernar skills, cada una con su cicatriz real.
 - **N3 · [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia):** comprobar la coherencia del estado por pura aritmética, sin IA.
 - **N3 · [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance):** que la memoria del agente no se convierta en un vertedero.
+- **N3 · [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management):** mantener pequeños y al día los ficheros de contexto de Claude Code, sin saturar la ventana.
 
 Y el mismo método portado a otro dominio: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, analítica de audiencias reutilizando cerca del 70% del enjambre contable.
 
@@ -73,7 +76,7 @@ Todo junto, explicado y desplegado, en **[portfolio-juan-luis](https://github.co
 
 - **Máster en IA y Automatización**, Visual Business School (2026)
 - **Grado en Ciencia de Datos**, Universitat Carlemany (2º año)
-- Construyendo un ecosistema completo de **automatización contable**: MySQL + Power BI + n8n + Claude
+- Construyendo un sistema completo de **automatización contable**: MySQL + Power BI + n8n + Claude
 - Evolucionando **enjambres de AI Skills** con evaluación continua: golden sets, simulaciones y puertas de no-regresión
 
 ---
@@ -85,3 +88,67 @@ Todo junto, explicado y desplegado, en **[portfolio-juan-luis](https://github.co
 ---
 
 Abierto a oportunidades en **Data Analytics** y **Business Intelligence** en **Tarragona y Barcelona** (presencial e híbrido).
+
+---
+
+## English
+
+### About me
+
+Data analyst with a business perspective and a background in management control. I work in Business Intelligence, data modelling (MySQL, Star Schema) and training custom **AI Skills** for recurring analysis.
+
+I build the bridge between data and decision. I turn business needs into reliable data models, actionable dashboards and automated processes.
+
+### Tech stack
+
+**Business Intelligence:** `Power BI` · `Advanced DAX` · `Dimensional modelling` · `Star Schema`
+**Databases:** `Advanced SQL` · `MySQL` · `Relational modelling`
+**Programming & ML:** `Python` · `Pandas` · `Scikit-learn` · `XGBoost` · `Jupyter`
+**AI agent systems:** `Claude Code` · `Multi-agent swarms` · `Custom AI Skills` · `RAG` · `MCP` · `Prompt engineering`
+**LLM evaluation:** `Eval-driven development` · `Golden sets` · `Simulations` · `No-regression gates` · `Synthetic test data`
+**Automation:** `n8n` · `Claude API` · `Hooks & workflows`
+
+### AI systems: a series to build and evaluate (N0 → N3)
+
+These repos tell, in order, how to build multi-agent AI systems you can trust. Each links to the others, so they read as one path.
+
+- **N0 · [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web):** what an AI assistant is and how you instruct it, for beginners.
+- **N1 · [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable):** evaluating a skill the way you examine a student, 66% to 100% measured.
+- **N2 · [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm):** a four-agent accounting swarm end to end, with its drops explained.
+- **N2 · [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia):** multi-agent routing, which agent handles each request without breaking as it grows.
+- **N3 · [gobernanza-skills-analiticas](https://github.com/jleonceo/gobernanza-skills-analiticas):** five rules for governing skills, each with its real scar.
+- **N3 · [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia):** checking state coherence by pure arithmetic, without AI.
+- **N3 · [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance):** keeping the agent's memory from turning into a junkyard.
+- **N3 · [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management):** keeping Claude Code's context files small and current, without flooding the window.
+
+The same method ported to another domain: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, audience analytics reusing about 70% of the accounting swarm.
+
+The financial vertical turned into a tool: **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, cash-flow forecasting with backtesting, ratios and aging (deterministic, no dependencies).
+
+Internal control as a forensic tool: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)**, accounting fraud detection with arithmetic inside a COSO-lite framework (deterministic, no dependencies).
+
+### Data & machine learning
+
+| Project | Description | Stack |
+|---|---|---|
+| **[analisis-contable](https://github.com/jleonceo/analisis-contable)** | End-to-end financial analysis: P&L, cash flow and scenario simulator over TechAcces SL | Python · MySQL · Pandas |
+| **[lead-scoring-ml](https://github.com/jleonceo/lead-scoring-ml)** | Predictive model to prioritise sales leads (XGBoost, AUC 0.92 verified with a replication script) | Python · ML · Jupyter |
+| **[RFM-Customer-Analytics](https://github.com/jleonceo/RFM-Customer-Analytics)** | Customer segmentation by Recency, Frequency and Monetary value, with associated business strategies | Python · Pandas |
+| **[accident-intelligent-agent](https://github.com/jleonceo/accident-intelligent-agent)** | Traffic-accident severity prediction in Madrid: ETL, EDA and predictive modelling | Python · ML · ETL |
+
+All together, explained and deployed, in **[portfolio-juan-luis](https://github.com/jleonceo/portfolio-juan-luis)** ([juanluisleon.vercel.app](https://juanluisleon.vercel.app)).
+
+### What I'm working on now
+
+- **Master's in AI and Automation**, Visual Business School (2026)
+- **Bachelor's in Data Science**, Universitat Carlemany (2nd year)
+- Building a complete **accounting automation** system: MySQL + Power BI + n8n + Claude
+- Evolving **AI Skill swarms** with continuous evaluation: golden sets, simulations and no-regression gates
+
+### Philosophy
+
+> *Well-trained skills endure. Models change and tools get updated, but the judgment built layer by layer stays.*
+
+---
+
+Open to **Data Analytics** and **Business Intelligence** roles in **Tarragona and Barcelona** (on-site and hybrid).
