@@ -16,11 +16,17 @@ Analista de datos con visión de negocio y trayectoria en control de gestión. T
 
 Construyo el puente entre el dato y la decisión. Traduzco necesidades de negocio en modelos de datos fiables, dashboards accionables y procesos automatizados.
 
-**Lo que he construido.** Sobre TechAcces SL, una empresa simulada con realismo, he levantado un sistema de contabilidad asistida por IA de principio a fin: del documento en bruto (una factura, una nómina, un extracto bancario) al asiento contabilizado. Lo llevan **51 AI Skills**, organizadas en enjambres de agentes por dominio (contabilidad, análisis, tesorería, control interno, marketing), sobre MySQL, Power BI, Python, n8n y Claude. El enjambre contable propone; una persona decide. En su última medición cerró en **93,3/100 con cero falsos positivos**, y cada versión pasa por evaluación continua antes de producción: golden sets, simulaciones a ciegas y puertas de no-regresión.
+**Lo que he construido.** Un sistema de contabilidad asistida por IA, de principio a fin. Entra un documento en bruto (una factura, una nómina, un extracto) y sale un asiento contabilizado. Corre sobre TechAcces SL, una empresa simulada con realismo.
 
-Debajo hay una capa que no es IA: **código determinista que recomprueba el estado por pura aritmética**, inmune al cambio de modelo. Es lo que evita que un sistema con agentes se crea sus propias cifras. La misma arquitectura (enjambres gobernados por evals más verificación determinista) se transfiere a otros dominios: la porté a analítica de audiencias reutilizando cerca del 70% del enjambre contable, y a herramientas de previsión de caja y detección de fraude.
+Lo llevan **51 AI Skills** repartidas en enjambres por dominio: contabilidad, análisis, tesorería, control interno y marketing. Debajo, MySQL, Power BI, Python, n8n y Claude. El enjambre propone y una persona decide.
 
-Todo el método y su evidencia están abiertos en los repositorios de abajo. La contabilidad es el primer caso de uso; **el activo es el sistema, no el dominio.**
+**Cómo se mide, con las cifras reales.** Cada versión pasa por un banco de 129 casos antes de producción: golden sets, simulaciones a ciegas y puertas de no-regresión. La medición del 27/06 cerró en **94,2/100 sin ningún falso positivo**. La del 20/07, sobre un banco más duro, bajó a **80,1** y sacó dos. Los dos se diagnosticaron y se corrigieron el 21/07, y la medición completa está pendiente de repetir. Publico las tres cifras porque la que importa no es la mejor, es la última.
+
+Debajo de la IA hay una capa que no lo es: **código determinista que recomprueba el estado por pura aritmética**, inmune al cambio de modelo. Es lo que impide que un sistema de agentes se crea sus propias cifras.
+
+Esa arquitectura se transfiere. La porté a analítica de audiencias reutilizando cerca del 70% del enjambre contable, y de ahí salieron herramientas de previsión de caja y de detección de fraude.
+
+El método y su evidencia están abiertos en los repositorios de abajo. La contabilidad es el primer caso de uso. **El activo es el sistema, no el dominio.**
 
 ### Stack técnico
 
@@ -105,11 +111,17 @@ Data analyst with a business perspective and a background in management control.
 
 I build the bridge between data and decision. I turn business needs into reliable data models, actionable dashboards and automated processes.
 
-**What I've built.** On TechAcces SL, a realistically simulated company, I built an AI-assisted accounting system end to end: from a raw document (an invoice, a payslip, a bank statement) to a booked entry. It runs on **51 custom AI Skills**, organised into agent swarms by domain (accounting, analytics, treasury, internal control, marketing), over MySQL, Power BI, Python, n8n and Claude. The accounting swarm proposes; a person decides. Its last measurement closed at **93.3/100 with zero false positives**, and every version goes through continuous evaluation before production: golden sets, blind simulations and no-regression gates.
+**What I've built.** An AI-assisted accounting system, end to end. A raw document goes in (an invoice, a payslip, a bank statement) and a booked entry comes out. It runs on TechAcces SL, a realistically simulated company.
 
-Underneath there is a layer that is not AI: **deterministic code that re-checks the state by pure arithmetic**, immune to model changes. It is what keeps an agent system from believing its own numbers. The same architecture (eval-governed swarms plus deterministic verification) transfers to other domains: I ported it to audience analytics reusing about 70% of the accounting swarm, and to cash-flow forecasting and fraud-detection tools.
+**51 custom AI Skills** do the work, grouped into swarms by domain: accounting, analytics, treasury, internal control and marketing. Underneath sit MySQL, Power BI, Python, n8n and Claude. The swarm proposes and a person decides.
 
-The whole method and its evidence are open in the repositories below. Accounting is the first use case; **the asset is the system, not the domain.**
+**How it is measured, with the real numbers.** Every version faces a 129-case bank before production: golden sets, blind simulations and no-regression gates. The 27 June run closed at **94.2/100 with zero false positives**. The 20 July run, against a harder bank, dropped to **80.1** and produced two. Both were diagnosed and fixed on 21 July, and the full re-measurement is still pending. I publish all three figures because the one that matters is the latest, not the best.
+
+Below the AI sits a layer that is not AI: **deterministic code that re-checks the state by pure arithmetic**, immune to model changes. It is what stops an agent system from believing its own numbers.
+
+That architecture travels. I ported it to audience analytics reusing about 70% of the accounting swarm, and from there came cash-flow forecasting and fraud-detection tools.
+
+The method and its evidence are open in the repositories below. Accounting is the first use case. **The asset is the system, not the domain.**
 
 ### Tech stack
 
