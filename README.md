@@ -69,6 +69,13 @@ Y el vertical financiero llevado a herramienta: **[tesoreria-forecast-ia](https:
 
 Y el control interno como herramienta forense: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)**, detección de fraude contable con aritmética dentro de un marco COSO-lite (determinista, sin dependencias).
 
+Los tres últimos van sobre lo mismo, que es hacer que una regla se cumpla sin depender de que el
+modelo se porte bien:
+
+- **[pii-output-gate](https://github.com/jleonceo/pii-output-gate):** una puerta de salida que no deja publicar nada con datos personales dentro. Nace de un escape real, cuando unas nóminas se dieron por limpias tras cambiar los nombres por códigos.
+- **[guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia):** cómo se comprueba que un guardián protege de verdad. Se rompe a propósito y se exige que salte, porque un banco de pruebas en verde solo demuestra que pasan los casos que se te ocurrieron.
+- **[gobernanza-agentes-verificada](https://github.com/jleonceo/gobernanza-agentes-verificada):** las reglas de un agente cableadas a algo que las imponga, en lugar de escritas en un documento que nadie relee.
+
 ---
 
 ### Datos y machine learning
@@ -150,6 +157,13 @@ The same method ported to another domain: **[audience-analyst-swarm](https://git
 The financial vertical turned into a tool: **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, cash-flow forecasting with backtesting, ratios and aging (deterministic, no dependencies).
 
 Internal control as a forensic tool: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)**, accounting fraud detection with arithmetic inside a COSO-lite framework (deterministic, no dependencies).
+
+The last three are all about the same thing, making a rule hold without relying on the model
+behaving:
+
+- **[pii-output-gate](https://github.com/jleonceo/pii-output-gate):** an output gate that refuses to publish anything with personal data inside. It comes from a real leak, when some payslips were taken for clean after swapping names for codes.
+- **[guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia):** how you check that a guardrail actually protects. You break it on purpose and demand it fires, because a green test bench only proves that the cases you thought of pass.
+- **[gobernanza-agentes-verificada](https://github.com/jleonceo/gobernanza-agentes-verificada):** an agent's rules wired to something that enforces them, instead of written in a document nobody rereads.
 
 ### Data & machine learning
 
