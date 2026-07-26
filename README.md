@@ -16,11 +16,11 @@ Analista de datos con visión de negocio y trayectoria en control de gestión. T
 
 Construyo el puente entre el dato y la decisión. Traduzco necesidades de negocio en modelos de datos fiables, dashboards accionables y procesos automatizados.
 
-**Lo que he construido.** Un sistema de contabilidad asistida por IA, de principio a fin. Entra un documento en bruto (una factura, una nómina, un extracto) y sale un asiento contabilizado. Corre sobre TechAcces SL, una empresa simulada con realismo.
+**Lo que he construido.** Un sistema de contabilidad asistido por IA que cubre el recorrido completo. Se le entrega una factura o una nómina tal como llega del proveedor, sin preparar, y devuelve el asiento contable con sus cuentas y sus importes, listo para que alguien lo apruebe. El caso sobre el que trabaja es TechAcces SL, una empresa ficticia cuyas cuentas se han construido con el volumen y el desorden de las de una real.
 
 Lo llevan **51 AI Skills** repartidas en enjambres por dominio: contabilidad, análisis, tesorería, control interno y marketing. Debajo, MySQL, Power BI, Python, n8n y Claude. El enjambre propone y una persona decide.
 
-**Cómo se mide, con las cifras reales.** Cada versión pasa por un banco de 129 casos antes de producción: golden sets, simulaciones a ciegas y puertas de no-regresión. La medición del 27/06 cerró en **94,2/100 sin ningún falso positivo**. La del 20/07, sobre un banco más duro, bajó a **80,1** y sacó dos. Los dos se diagnosticaron y se corrigieron el 21/07, y la medición completa está pendiente de repetir. Publico las tres cifras porque la que importa no es la mejor, es la última.
+**Cómo se mide, con las cifras reales.** Cada versión pasa por un banco de 129 casos antes de producción: golden sets, simulaciones a ciegas y puertas de no-regresión. La medición del 27/06 cerró en **94,2/100 sin ningún falso positivo**. La del 20/07, sobre un banco más duro, bajó a **80,1** y sacó dos. Los dos se diagnosticaron y se corrigieron el 21/07, y la medición completa está pendiente de repetir. Publico las tres cifras, y la que cuenta es siempre la última.
 
 Debajo de la IA hay una capa que no lo es: **código determinista que recomprueba el estado por pura aritmética**, inmune al cambio de modelo. Es lo que impide que un sistema de agentes se crea sus propias cifras.
 
@@ -65,7 +65,7 @@ Estos repos cuentan, en orden, cómo construir sistemas con varios agentes de IA
 
 Y el mismo método portado a otro dominio: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, analítica de audiencias reutilizando cerca del 70% del enjambre contable.
 
-Y el vertical financiero llevado a herramienta: **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, previsión de caja con backtesting, ratios y aging (determinista, sin dependencias).
+Y el vertical financiero llevado a herramienta: **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, previsión de caja con backtesting y aging de cobros y pagos (determinista, sin dependencias).
 
 Y el control interno como herramienta forense: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)**, detección de fraude contable con aritmética dentro de un marco COSO-lite (determinista, sin dependencias).
 
@@ -118,11 +118,11 @@ Data analyst with a business perspective and a background in management control.
 
 I build the bridge between data and decision. I turn business needs into reliable data models, actionable dashboards and automated processes.
 
-**What I've built.** An AI-assisted accounting system, end to end. A raw document goes in (an invoice, a payslip, a bank statement) and a booked entry comes out. It runs on TechAcces SL, a realistically simulated company.
+**What I've built.** An AI-assisted accounting system covering the whole path. You hand it an invoice or a payslip exactly as the supplier sent it, with no preparation. It returns the accounting entry with its accounts and its amounts, ready for someone to approve. The case it works on is TechAcces SL, a fictional company whose books were built with the volume and the messiness of a real one.
 
 **51 custom AI Skills** do the work, grouped into swarms by domain: accounting, analytics, treasury, internal control and marketing. Underneath sit MySQL, Power BI, Python, n8n and Claude. The swarm proposes and a person decides.
 
-**How it is measured, with the real numbers.** Every version faces a 129-case bank before production: golden sets, blind simulations and no-regression gates. The 27 June run closed at **94.2/100 with zero false positives**. The 20 July run, against a harder bank, dropped to **80.1** and produced two. Both were diagnosed and fixed on 21 July, and the full re-measurement is still pending. I publish all three figures because the one that matters is the latest, not the best.
+**How it is measured, with the real numbers.** Every version faces a 129-case bank before production: golden sets, blind simulations and no-regression gates. The 27 June run closed at **94.2/100 with zero false positives**. The 20 July run, against a harder bank, dropped to **80.1** and produced two. Both were diagnosed and fixed on 21 July, and the full re-measurement is still pending. I publish all three figures, and the one that counts is always the latest.
 
 Below the AI sits a layer that is not AI: **deterministic code that re-checks the state by pure arithmetic**, immune to model changes. It is what stops an agent system from believing its own numbers.
 
@@ -154,7 +154,7 @@ These repos tell, in order, how to build multi-agent AI systems you can trust. E
 
 The same method ported to another domain: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, audience analytics reusing about 70% of the accounting swarm.
 
-The financial vertical turned into a tool: **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, cash-flow forecasting with backtesting, ratios and aging (deterministic, no dependencies).
+The financial vertical turned into a tool: **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, cash-flow forecasting with backtesting and receivables aging (deterministic, no dependencies).
 
 Internal control as a forensic tool: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)**, accounting fraud detection with arithmetic inside a COSO-lite framework (deterministic, no dependencies).
 
