@@ -12,21 +12,19 @@ Tarragona / Barcelona · jleonceo@gmail.com · [LinkedIn](https://www.linkedin.c
 
 ### Sobre mí
 
-Analista de datos con visión de negocio y trayectoria en control de gestión. Trabajo en Business Intelligence, modelado de datos (MySQL, Star Schema) y entrenamiento de **AI Skills** a medida para el análisis recurrente.
+Analista de datos con visión de negocio y trayectoria en control de gestión. Trabajo en Business Intelligence, modelado de datos (MySQL, Star Schema) y entrenamiento de **AI Skills** a medida para el análisis recurrente. Lo que hago, dicho corto, es poner un puente entre el dato y la decisión.
 
-Construyo el puente entre el dato y la decisión. Traduzco necesidades de negocio en modelos de datos fiables, dashboards accionables y procesos automatizados.
+**Lo que he construido.** Un sistema de contabilidad asistido por IA que cubre el recorrido completo. Se le entrega una factura o una nómina tal como llega del proveedor, sin preparar, y devuelve el asiento contable con sus cuentas y sus importes, listo para que alguien lo apruebe. El caso sobre el que trabaja es TechAcces SL, una empresa ficticia cuyas cuentas se han construido con el volumen y el desorden de las de una real: 17.382 asientos en el diario operativo a 31/07/2026, con sus duplicados, sus vencimientos y sus meses malos. Esa cifra sale de una consulta a una base privada, así que no la puedes comprobar desde aquí y va como contexto del tamaño del problema. Lo llevan **52 AI Skills instaladas, 47 de ellas construidas a medida**, repartidas en enjambres por dominio: contabilidad, análisis, tesorería, control interno y marketing. Debajo, MySQL, Power BI, Python, n8n y Claude.
 
-**Lo que he construido.** Un sistema de contabilidad asistido por IA que cubre el recorrido completo. Se le entrega una factura o una nómina tal como llega del proveedor, sin preparar, y devuelve el asiento contable con sus cuentas y sus importes, listo para que alguien lo apruebe. El caso sobre el que trabaja es TechAcces SL, una empresa ficticia cuyas cuentas se han construido con el volumen y el desorden de las de una real.
-
-Lo llevan **51 AI Skills** repartidas en enjambres por dominio: contabilidad, análisis, tesorería, control interno y marketing. Debajo, MySQL, Power BI, Python, n8n y Claude. El enjambre propone y una persona decide.
+El enjambre propone y una persona decide. Esa frase es la arquitectura entera.
 
 **Cómo se mide, con las cifras reales.** Cada versión pasa por un banco de 129 casos antes de producción: golden sets, simulaciones a ciegas y puertas de no-regresión. La medición del 27/06 cerró en **94,2/100 sin ningún falso positivo**. La del 20/07, sobre un banco más duro, bajó a **80,1** y sacó dos. Los dos se diagnosticaron y se corrigieron el 21/07, y la medición completa está pendiente de repetir. Publico las tres cifras, y la que cuenta es siempre la última.
 
 Debajo de la IA hay una capa que no lo es: **código determinista que recomprueba el estado por pura aritmética**, inmune al cambio de modelo. Es lo que impide que un sistema de agentes se crea sus propias cifras.
 
-Esa arquitectura se transfiere. La porté a analítica de audiencias reutilizando cerca del 70% del enjambre contable, y de ahí salieron herramientas de previsión de caja y de detección de fraude.
+Esa arquitectura se transfiere. La porté a analítica de audiencias reutilizando cerca del 70% del enjambre contable, y de ahí salieron herramientas de previsión de caja y de detección de fraude. El método y su evidencia están abiertos en los repositorios de abajo. La contabilidad es el primer caso de uso.
 
-El método y su evidencia están abiertos en los repositorios de abajo. La contabilidad es el primer caso de uso. **El activo es el sistema, no el dominio.**
+**El activo es el sistema, no el dominio.**
 
 ### Stack técnico
 
@@ -63,14 +61,9 @@ Estos repos cuentan, en orden, cómo construir sistemas con varios agentes de IA
 - **N3 · [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance):** que la memoria del agente no se convierta en un vertedero.
 - **N3 · [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management):** mantener pequeños y al día los ficheros de contexto de Claude Code, sin saturar la ventana.
 
-Y el mismo método portado a otro dominio: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, analítica de audiencias reutilizando cerca del 70% del enjambre contable.
+De ahí salen tres derivadas. La primera es el mismo método llevado a otro dominio: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, analítica de audiencias reutilizando cerca del 70% del enjambre contable, que es la prueba de que la arquitectura viaja. La segunda es el vertical financiero convertido en herramienta, **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, con previsión de caja, backtesting y aging de cobros y pagos, determinista y sin dependencias. La tercera lleva el control interno al terreno forense: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)** busca fraude contable con aritmética dentro de un marco COSO-lite, propone candidatos y nunca acusa.
 
-Y el vertical financiero llevado a herramienta: **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, previsión de caja con backtesting y aging de cobros y pagos (determinista, sin dependencias).
-
-Y el control interno como herramienta forense: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)**, detección de fraude contable con aritmética dentro de un marco COSO-lite (determinista, sin dependencias).
-
-Los tres últimos van sobre lo mismo, que es hacer que una regla se cumpla sin depender de que el
-modelo se porte bien:
+Los tres que vienen ahora van sobre lo mismo: que una regla se cumpla sin depender de que el modelo se porte bien.
 
 - **[pii-output-gate](https://github.com/jleonceo/pii-output-gate):** una puerta de salida que no deja publicar nada con datos personales dentro. Nace de un escape real, cuando unas nóminas se dieron por limpias tras cambiar los nombres por códigos.
 - **[guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia):** cómo se comprueba que un guardián protege de verdad. Se rompe a propósito y se exige que salte, porque un banco de pruebas en verde solo demuestra que pasan los casos que se te ocurrieron.
@@ -114,21 +107,19 @@ Abierto a oportunidades en **Data Analytics** y **Business Intelligence** en **T
 
 ### About me
 
-Data analyst with a business perspective and a background in management control. I work in Business Intelligence, data modelling (MySQL, Star Schema) and training custom **AI Skills** for recurring analysis.
+Data analyst with a business perspective and a background in management control. I work in Business Intelligence, data modelling (MySQL, Star Schema) and training custom **AI Skills** for recurring analysis. Put shortly, what I do is bridge data and decision.
 
-I build the bridge between data and decision. I turn business needs into reliable data models, actionable dashboards and automated processes.
+**What I've built.** An AI-assisted accounting system covering the whole path. You hand it an invoice or a payslip exactly as the supplier sent it, with no preparation. It returns the accounting entry with its accounts and its amounts, ready for someone to approve. The case it works on is TechAcces SL, a fictional company whose books were built with the volume and the messiness of a real one: 17,382 entries in the operating ledger as of 31 July 2026, with their duplicates, their due dates and their bad months. That figure comes from a query against a private database, so you cannot check it from here and it stands as context for the size of the problem. **52 AI Skills installed, 47 of them custom-built**, do the work, grouped into swarms by domain: accounting, analytics, treasury, internal control and marketing. Underneath sit MySQL, Power BI, Python, n8n and Claude.
 
-**What I've built.** An AI-assisted accounting system covering the whole path. You hand it an invoice or a payslip exactly as the supplier sent it, with no preparation. It returns the accounting entry with its accounts and its amounts, ready for someone to approve. The case it works on is TechAcces SL, a fictional company whose books were built with the volume and the messiness of a real one.
-
-**51 custom AI Skills** do the work, grouped into swarms by domain: accounting, analytics, treasury, internal control and marketing. Underneath sit MySQL, Power BI, Python, n8n and Claude. The swarm proposes and a person decides.
+The swarm proposes and a person decides. That sentence is the whole architecture.
 
 **How it is measured, with the real numbers.** Every version faces a 129-case bank before production: golden sets, blind simulations and no-regression gates. The 27 June run closed at **94.2/100 with zero false positives**. The 20 July run, against a harder bank, dropped to **80.1** and produced two. Both were diagnosed and fixed on 21 July, and the full re-measurement is still pending. I publish all three figures, and the one that counts is always the latest.
 
 Below the AI sits a layer that is not AI: **deterministic code that re-checks the state by pure arithmetic**, immune to model changes. It is what stops an agent system from believing its own numbers.
 
-That architecture travels. I ported it to audience analytics reusing about 70% of the accounting swarm, and from there came cash-flow forecasting and fraud-detection tools.
+That architecture travels. I ported it to audience analytics reusing about 70% of the accounting swarm, and from there came cash-flow forecasting and fraud-detection tools. The method and its evidence are open in the repositories below, and accounting is just the first use case.
 
-The method and its evidence are open in the repositories below. Accounting is the first use case. **The asset is the system, not the domain.**
+**The asset is the system, not the domain.**
 
 ### Tech stack
 
@@ -152,14 +143,9 @@ These repos tell, in order, how to build multi-agent AI systems you can trust. E
 - **N3 · [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance):** keeping the agent's memory from turning into a junkyard.
 - **N3 · [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management):** keeping Claude Code's context files small and current, without flooding the window.
 
-The same method ported to another domain: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, audience analytics reusing about 70% of the accounting swarm.
+Three branches come off that. The first is the same method taken to another domain: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, audience analytics reusing about 70% of the accounting swarm, which is the proof that the architecture travels. The second is the financial vertical turned into a tool, **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, with cash-flow forecasting, backtesting and receivables aging, deterministic and dependency-free. The third takes internal control into forensic ground: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)** hunts accounting fraud with arithmetic inside a COSO-lite framework, proposes candidates and never accuses.
 
-The financial vertical turned into a tool: **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, cash-flow forecasting with backtesting and receivables aging (deterministic, no dependencies).
-
-Internal control as a forensic tool: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)**, accounting fraud detection with arithmetic inside a COSO-lite framework (deterministic, no dependencies).
-
-The last three are all about the same thing, making a rule hold without relying on the model
-behaving:
+The three that follow are all about the same thing: making a rule hold without relying on the model behaving.
 
 - **[pii-output-gate](https://github.com/jleonceo/pii-output-gate):** an output gate that refuses to publish anything with personal data inside. It comes from a real leak, when some payslips were taken for clean after swapping names for codes.
 - **[guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia):** how you check that a guardrail actually protects. You break it on purpose and demand it fires, because a green test bench only proves that the cases you thought of pass.
