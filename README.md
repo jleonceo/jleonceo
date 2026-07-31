@@ -52,14 +52,14 @@ Esa arquitectura se transfiere. La porté a analítica de audiencias reutilizand
 
 Estos repos cuentan, en orden, cómo construir sistemas con varios agentes de IA en los que se puede confiar. Cada uno enlaza a los demás. Se pueden leer como un recorrido.
 
-- **N0 · [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web):** qué es un asistente de IA y cómo se le instruye, sin tecnicismos.
-- **N1 · [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable):** evaluar una skill como se examina a un alumno, de 66% a 100% medido.
-- **N2 · [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm):** un enjambre de cuatro agentes contables de principio a fin, con sus caídas explicadas.
-- **N2 · [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia):** el enrutado multi-agente, a qué agente va cada petición sin romper al crecer.
-- **N3 · [gobernanza-skills-analiticas](https://github.com/jleonceo/gobernanza-skills-analiticas):** las cinco reglas para gobernar skills, cada una con su cicatriz real.
-- **N3 · [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia):** comprobar la coherencia del estado por pura aritmética, sin IA.
-- **N3 · [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance):** que la memoria del agente no se convierta en un vertedero.
-- **N3 · [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management):** mantener pequeños y al día los ficheros de contexto de Claude Code, sin saturar la ventana.
+- N0 · [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web): qué es un asistente de IA y cómo se le instruye, sin tecnicismos.
+- N1 · [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable): evaluar una skill como se examina a un alumno, de 66% a 100% medido.
+- N2 · [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm): un enjambre de cuatro agentes contables de principio a fin, con sus caídas explicadas.
+- N2 · [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia): el enrutado multi-agente, a qué agente va cada petición sin romper al crecer.
+- N3 · [gobernanza-skills-analiticas](https://github.com/jleonceo/gobernanza-skills-analiticas): las cinco reglas para gobernar skills, cada una con su cicatriz real.
+- N3 · [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia): comprobar la coherencia del estado por pura aritmética, sin IA.
+- N3 · [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance): que la memoria del agente no se convierta en un vertedero.
+- N3 · [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management): mantener pequeños y al día los ficheros de contexto de Claude Code, sin saturar la ventana.
 
 De ahí salen tres derivadas. La primera es el mismo método llevado a otro dominio: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, analítica de audiencias reutilizando cerca del 70% del enjambre contable, que es la prueba de que la arquitectura viaja. La segunda es el vertical financiero convertido en herramienta, **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, con previsión de caja, backtesting y aging de cobros y pagos, determinista y sin dependencias. La tercera lleva el control interno al terreno forense: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)** busca fraude contable con aritmética dentro de un marco COSO-lite, propone candidatos y nunca acusa.
 
@@ -134,14 +134,14 @@ That architecture travels. I ported it to audience analytics reusing about 70% o
 
 These repos tell, in order, how to build multi-agent AI systems you can trust. Each links to the others, so they read as one path.
 
-- **N0 · [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web):** what an AI assistant is and how you instruct it, for beginners.
-- **N1 · [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable):** evaluating a skill the way you examine a student, 66% to 100% measured.
-- **N2 · [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm):** a four-agent accounting swarm end to end, with its drops explained.
-- **N2 · [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia):** multi-agent routing, which agent handles each request without breaking as it grows.
-- **N3 · [gobernanza-skills-analiticas](https://github.com/jleonceo/gobernanza-skills-analiticas):** five rules for governing skills, each with its real scar.
-- **N3 · [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia):** checking state coherence by pure arithmetic, without AI.
-- **N3 · [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance):** keeping the agent's memory from turning into a junkyard.
-- **N3 · [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management):** keeping Claude Code's context files small and current, without flooding the window.
+- N0 · [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web): what an AI assistant is and how you instruct it, for beginners.
+- N1 · [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable): evaluating a skill the way you examine a student, 66% to 100% measured.
+- N2 · [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm): a four-agent accounting swarm end to end, with its drops explained.
+- N2 · [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia): multi-agent routing, which agent handles each request without breaking as it grows.
+- N3 · [gobernanza-skills-analiticas](https://github.com/jleonceo/gobernanza-skills-analiticas): five rules for governing skills, each with its real scar.
+- N3 · [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia): checking state coherence by pure arithmetic, without AI.
+- N3 · [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance): keeping the agent's memory from turning into a junkyard.
+- N3 · [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management): keeping Claude Code's context files small and current, without flooding the window.
 
 Three branches come off that. The first is the same method taken to another domain: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, audience analytics reusing about 70% of the accounting swarm, which is the proof that the architecture travels. The second is the financial vertical turned into a tool, **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, with cash-flow forecasting, backtesting and receivables aging, deterministic and dependency-free. The third takes internal control into forensic ground: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)** hunts accounting fraud with arithmetic inside a COSO-lite framework, proposes candidates and never accuses.
 
