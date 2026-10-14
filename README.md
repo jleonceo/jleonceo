@@ -1,178 +1,77 @@
-# Juan Luis León
+English version: [README.en.md](README.en.md)
 
-**Data Analyst · Business Intelligence · Entrenamiento de AI Skills**
+# Juan Luis León Rodríguez
+
+**Analista de datos y BI · Contabilidad y control de gestión · IA aplicada**
 
 Tarragona / Barcelona · jleonceo@gmail.com · [LinkedIn](https://www.linkedin.com/in/jlleonrodriguez/)
 
-[Español](#español) · [English](#english)
+Uno la contabilidad y el control de gestión con el análisis de datos y la inteligencia artificial.
 
----
+Empecé en administración y contabilidad, fui formador de informática y dirigí mi propio negocio durante doce años.
+Después llevé las operaciones y el control de gestión de una empresa de hostelería, donde la facturación subió un
+17 % en una temporada con obras a 25 metros del local. Hoy curso el grado en Ciencia de Datos, en segundo año, y el Máster
+en IA Aplicada y Optimización de Procesos Productivos. Lo que he construido en este tiempo está abajo, con el código
+abierto.
 
-## Español
+Busco puestos de análisis de datos, BI, automatización con IA o control de gestión en Tarragona o Barcelona,
+presencial o híbrido.
 
-### Sobre mí
+## Proyectos destacados
 
-Analista de datos con visión de negocio y trayectoria en control de gestión. Trabajo en Business Intelligence, modelado de datos (MySQL, Star Schema) y entrenamiento de **AI Skills** a medida para el análisis recurrente. Lo que hago, dicho corto, es poner un puente entre el dato y la decisión.
+- [Ventas, de un fichero en bruto a un cuadro de mando](https://github.com/jleonceo/de-datos-en-bruto-a-decisiones):
+  tres preguntas de negocio respondidas con datos limpios y contrastados con estadística, publicadas en
+  [una web](https://de-datos-en-bruto-a-decisiones.vercel.app). Python, pandas y estadística.
+- [Puntuación de clientes potenciales](https://github.com/jleonceo/lead-scoring-ml): llamando al 20 % mejor puntuado
+  se llega a la mitad de los compradores. Un modelo ordena los contactos por su probabilidad de compra. Python,
+  scikit-learn y XGBoost.
+- [Segmentación de clientes](https://github.com/jleonceo/RFM-Customer-Analytics): las campañas, a los clientes con
+  más opciones de volver a comprar. Agrupa a los clientes por lo reciente, lo frecuente y lo mucho que compran.
+  Python y pandas.
+- [Previsión de tesorería](https://github.com/jleonceo/tesoreria-forecast-ia): a un mes vista falla de media 4.334 €,
+  frente a 29.444 € de la media de años anteriores. Prevé la caja mes a mes y mide su error contra el pasado. Python.
+- [Detección de fraude contable](https://github.com/jleonceo/control-interno-fraude-ia): pagos duplicados, huecos en
+  la numeración y proveedores sin rastro, señalados en el libro de asientos entero para que una persona los revise.
+  Python.
+- [Contabilidad con agentes de IA](https://github.com/jleonceo/accounting-agent-swarm): entra una factura y sale su
+  asiento contable propuesto y comprobado, que una persona revisa antes de registrarlo. Cuatro agentes leen los
+  documentos, proponen, comprueban y concilian el banco. Claude.
 
-**Lo que he construido.** Un sistema de contabilidad asistido por IA que cubre el recorrido completo. Se le entrega una factura o una nómina tal como llega del proveedor, sin preparar, y devuelve el asiento contable con sus cuentas y sus importes, listo para que alguien lo apruebe. El caso sobre el que trabaja es TechAcces SL, una empresa ficticia cuyas cuentas se han construido con el volumen y el desorden de las de una real: 17.382 asientos en el diario operativo a 31/07/2026, con sus duplicados, sus vencimientos y sus meses malos. Esa cifra sale de una consulta a un disco privado, así que **no es reproducible** desde aquí y va como contexto del tamaño del problema. Lo llevan **55 AI Skills instaladas, 49 de ellas construidas a medida**, repartidas en enjambres por dominio: contabilidad, análisis, tesorería, control interno y marketing. Debajo, MySQL, Power BI, Python, n8n y Claude.
+## Lo que sé hacer
 
-El enjambre propone y una persona decide. Esa frase es la arquitectura entera.
+- Análisis de datos y BI con Power BI, DAX, Power Query, modelos en estrella, SQL sobre MySQL, Python y pandas, para
+  que dirección vea de un vistazo dónde actuar y todos los departamentos trabajen con la misma cifra.
+- Contabilidad según el Plan General Contable, cierre, conciliación bancaria, IVA, previsión de tesorería y control
+  interno, para cerrar antes y corregir las desviaciones frente al presupuesto antes de que cuesten margen.
+- Aprendizaje automático con scikit-learn y XGBoost, series temporales y validación de modelos, para convertir la
+  historia de la empresa en previsiones útiles.
+- IA aplicada con Claude y Claude Code: agentes, conexión con los sistemas de la empresa (MCP, n8n), evaluación de
+  modelos de lenguaje y protección de datos personales. Sirve para delegar tareas de varios pasos con una persona
+  que supervisa.
 
-**Cómo se mide, con las cifras reales.** Cada versión pasa por un banco de 129 casos antes de producción: golden sets, simulaciones a ciegas y puertas de no-regresión. La medición del 27/06 cerró en **94,2/100 sin ningún falso positivo**. La del 20/07, sobre un banco más duro, bajó a **80,1** y sacó dos. Los dos se diagnosticaron y se corrigieron el 21/07, y la medición completa está pendiente de repetir. Publico las tres cifras, y la que cuenta es siempre la última.
+## Más trabajo publicado
 
-Debajo de la IA hay una capa que no lo es: **código determinista que recomprueba el estado por pura aritmética**, inmune al cambio de modelo. Es lo que impide que un sistema de agentes se crea sus propias cifras.
+Cómo hacer fiable un sistema de IA:
+[llm-eval-contable](https://github.com/jleonceo/llm-eval-contable) ·
+[orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia) ·
+[gobernanza-skills-analiticas](https://github.com/jleonceo/gobernanza-skills-analiticas) ·
+[gobernanza-agentes-verificada](https://github.com/jleonceo/gobernanza-agentes-verificada) ·
+[verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia) ·
+[guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia) ·
+[pii-output-gate](https://github.com/jleonceo/pii-output-gate)
 
-Esa arquitectura se transfiere. La porté a analítica de audiencias reutilizando cerca del 70% del enjambre contable, y de ahí salieron herramientas de previsión de caja y de detección de fraude. El método y su evidencia están abiertos en los repositorios de abajo. La contabilidad es el primer caso de uso.
+Herramientas para trabajar con Claude Code:
+[adherencia-reglas](https://github.com/jleonceo/adherencia-reglas) ·
+[compact-retention](https://github.com/jleonceo/compact-retention) ·
+[detector-control-negativo](https://github.com/jleonceo/detector-control-negativo) ·
+[claude-code-context-management](https://github.com/jleonceo/claude-code-context-management) ·
+[agent-memory-governance](https://github.com/jleonceo/agent-memory-governance)
 
-**El activo es el sistema, no el dominio.**
+Otros análisis:
+[analisis-contable](https://github.com/jleonceo/analisis-contable) ·
+[accident-intelligent-agent](https://github.com/jleonceo/accident-intelligent-agent) ·
+[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)
 
-### Stack técnico
-
-**Business Intelligence**
-`Power BI` · `DAX avanzado` · `Modelado dimensional` · `Star Schema`
-
-**Bases de datos**
-`SQL avanzado` · `MySQL` · `Modelado relacional`
-
-**Programación y ML**
-`Python` · `Pandas` · `Scikit-learn` · `XGBoost` · `Jupyter`
-
-**Sistemas de agentes IA**
-`Claude Code` · `Enjambres multi-agente` · `AI Skills a medida` · `RAG` · `MCP` · `Prompt engineering`
-
-**Evaluación de sistemas LLM**
-`Eval-driven development` · `Golden sets` · `Simulaciones` · `Puertas de no-regresión` · `Datos sintéticos de test`
-
-**Automatización**
-`n8n` · `Claude API` · `Hooks y workflows`
-
----
-
-### Sistemas de IA: una serie para construir y evaluar (N0 → N3)
-
-Estos repos cuentan, en orden, cómo construir sistemas con varios agentes de IA en los que se puede confiar. Cada uno enlaza a los demás. Se pueden leer como un recorrido.
-
-- N0 · [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web): qué es un asistente de IA y cómo se le instruye, sin tecnicismos.
-- N1 · [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable): evaluar una skill como se examina a un alumno, de 66% a 100% medido.
-- N2 · [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm): un enjambre de cuatro agentes contables de principio a fin, con sus caídas explicadas.
-- N2 · [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia): el enrutado multi-agente, a qué agente va cada petición sin romper al crecer.
-- N3 · [gobernanza-skills-analiticas](https://github.com/jleonceo/gobernanza-skills-analiticas): las cinco reglas para gobernar skills, cada una con su cicatriz real.
-- N3 · [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia): comprobar la coherencia del estado por pura aritmética, sin IA.
-- N3 · [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance): que la memoria del agente no se convierta en un vertedero.
-- N3 · [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management): mantener pequeños y al día los ficheros de contexto de Claude Code, sin saturar la ventana.
-
-De ahí salen tres derivadas. La primera es el mismo método llevado a otro dominio: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, analítica de audiencias reutilizando cerca del 70% del enjambre contable, que es la prueba de que la arquitectura viaja. La segunda es el vertical financiero convertido en herramienta, **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, con previsión de caja, backtesting y aging de cobros y pagos, determinista y sin dependencias. La tercera lleva el control interno al terreno forense: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)** busca fraude contable con aritmética dentro de un marco COSO-lite, propone candidatos y nunca acusa.
-
-Los tres que vienen ahora van sobre lo mismo: que una regla se cumpla sin depender de que el modelo se porte bien.
-
-- **[pii-output-gate](https://github.com/jleonceo/pii-output-gate):** una puerta de salida que no deja publicar nada con datos personales dentro. Nace de un escape real, cuando unas nóminas se dieron por limpias tras cambiar los nombres por códigos.
-- **[guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia):** cómo se comprueba que un guardián protege de verdad. Se rompe a propósito y se exige que salte, porque un banco de pruebas en verde solo demuestra que pasan los casos que se te ocurrieron.
-- **[gobernanza-agentes-verificada](https://github.com/jleonceo/gobernanza-agentes-verificada):** las reglas de un agente cableadas a algo que las imponga, en lugar de escritas en un documento que nadie relee.
-
----
-
-### Datos y machine learning
-
-| Proyecto | Descripción | Stack |
-|---|---|---|
-| **[analisis-contable](https://github.com/jleonceo/analisis-contable)** | Análisis financiero de principio a fin: cuenta de resultados, tesorería y simulador de escenarios sobre TechAcces SL | Python · MySQL · Pandas |
-| **[lead-scoring-ml](https://github.com/jleonceo/lead-scoring-ml)** | Modelo predictivo para priorizar leads comerciales (XGBoost, AUC 0.92 verificado con script de réplica) | Python · ML · Jupyter |
-| **[RFM-Customer-Analytics](https://github.com/jleonceo/RFM-Customer-Analytics)** | Segmentación de clientes por Recencia, Frecuencia y Valor monetario, con estrategias de negocio asociadas | Python · Pandas |
-| **[accident-intelligent-agent](https://github.com/jleonceo/accident-intelligent-agent)** | Predicción de gravedad de accidentes de tráfico en Madrid: ETL, EDA y modelado predictivo | Python · ML · ETL |
-
-Todo junto, explicado y desplegado, en **[portfolio-juan-luis](https://github.com/jleonceo/portfolio-juan-luis)** ([juanluisleon.vercel.app](https://juanluisleon.vercel.app)).
-
----
-
-### En qué estoy ahora
-
-- **Máster en IA y Automatización**, Visual Business School (2026)
-- **Grado en Ciencia de Datos**, Universitat Carlemany (2º año)
-- Construyendo un sistema completo de **automatización contable**: MySQL + Power BI + n8n + Claude
-- Evolucionando **enjambres de AI Skills** con evaluación continua: golden sets, simulaciones y puertas de no-regresión
-
----
-
-### Filosofía
-
-> *Las skills bien entrenadas permanecen. Los modelos cambian y las herramientas se actualizan, pero el criterio construido capa a capa se queda.*
-
----
-
-Abierto a oportunidades en **Data Analytics** y **Business Intelligence** en **Tarragona y Barcelona** (presencial e híbrido).
-
----
-
-## English
-
-### About me
-
-Data analyst with a business perspective and a background in management control. I work in Business Intelligence, data modelling (MySQL, Star Schema) and training custom **AI Skills** for recurring analysis. Put shortly, what I do is bridge data and decision.
-
-**What I've built.** An AI-assisted accounting system covering the whole path. You hand it an invoice or a payslip exactly as the supplier sent it, with no preparation. It returns the accounting entry with its accounts and its amounts, ready for someone to approve. The case it works on is TechAcces SL, a fictional company whose books were built with the volume and the messiness of a real one: 17,382 entries in the operating ledger as of 31 July 2026, with their duplicates, their due dates and their bad months. That figure comes from a query against a private tree, so it is **not reproducible** from here and it stands as context for the size of the problem. **55 AI Skills installed, 49 of them custom-built**, do the work, grouped into swarms by domain: accounting, analytics, treasury, internal control and marketing. Underneath sit MySQL, Power BI, Python, n8n and Claude.
-
-The swarm proposes and a person decides. That sentence is the whole architecture.
-
-**How it is measured, with the real numbers.** Every version faces a 129-case bank before production: golden sets, blind simulations and no-regression gates. The 27 June run closed at **94.2/100 with zero false positives**. The 20 July run, against a harder bank, dropped to **80.1** and produced two. Both were diagnosed and fixed on 21 July, and the full re-measurement is still pending. I publish all three figures, and the one that counts is always the latest.
-
-Below the AI sits a layer that is not AI: **deterministic code that re-checks the state by pure arithmetic**, immune to model changes. It is what stops an agent system from believing its own numbers.
-
-That architecture travels. I ported it to audience analytics reusing about 70% of the accounting swarm, and from there came cash-flow forecasting and fraud-detection tools. The method and its evidence are open in the repositories below, and accounting is just the first use case.
-
-**The asset is the system, not the domain.**
-
-### Tech stack
-
-**Business Intelligence:** `Power BI` · `Advanced DAX` · `Dimensional modelling` · `Star Schema`
-**Databases:** `Advanced SQL` · `MySQL` · `Relational modelling`
-**Programming & ML:** `Python` · `Pandas` · `Scikit-learn` · `XGBoost` · `Jupyter`
-**AI agent systems:** `Claude Code` · `Multi-agent swarms` · `Custom AI Skills` · `RAG` · `MCP` · `Prompt engineering`
-**LLM evaluation:** `Eval-driven development` · `Golden sets` · `Simulations` · `No-regression gates` · `Synthetic test data`
-**Automation:** `n8n` · `Claude API` · `Hooks & workflows`
-
-### AI systems: a series to build and evaluate (N0 → N3)
-
-These repos tell, in order, how to build multi-agent AI systems you can trust. Each links to the others, so they read as one path.
-
-- N0 · [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web): what an AI assistant is and how you instruct it, for beginners.
-- N1 · [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable): evaluating a skill the way you examine a student, 66% to 100% measured.
-- N2 · [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm): a four-agent accounting swarm end to end, with its drops explained.
-- N2 · [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia): multi-agent routing, which agent handles each request without breaking as it grows.
-- N3 · [gobernanza-skills-analiticas](https://github.com/jleonceo/gobernanza-skills-analiticas): five rules for governing skills, each with its real scar.
-- N3 · [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia): checking state coherence by pure arithmetic, without AI.
-- N3 · [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance): keeping the agent's memory from turning into a junkyard.
-- N3 · [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management): keeping Claude Code's context files small and current, without flooding the window.
-
-Three branches come off that. The first is the same method taken to another domain: **[audience-analyst-swarm](https://github.com/jleonceo/audience-analyst-swarm)**, audience analytics reusing about 70% of the accounting swarm, which is the proof that the architecture travels. The second is the financial vertical turned into a tool, **[tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia)**, with cash-flow forecasting, backtesting and receivables aging, deterministic and dependency-free. The third takes internal control into forensic ground: **[control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia)** hunts accounting fraud with arithmetic inside a COSO-lite framework, proposes candidates and never accuses.
-
-The three that follow are all about the same thing: making a rule hold without relying on the model behaving.
-
-- **[pii-output-gate](https://github.com/jleonceo/pii-output-gate):** an output gate that refuses to publish anything with personal data inside. It comes from a real leak, when some payslips were taken for clean after swapping names for codes.
-- **[guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia):** how you check that a guardrail actually protects. You break it on purpose and demand it fires, because a green test bench only proves that the cases you thought of pass.
-- **[gobernanza-agentes-verificada](https://github.com/jleonceo/gobernanza-agentes-verificada):** an agent's rules wired to something that enforces them, instead of written in a document nobody rereads.
-
-### Data & machine learning
-
-| Project | Description | Stack |
-|---|---|---|
-| **[analisis-contable](https://github.com/jleonceo/analisis-contable)** | End-to-end financial analysis: P&L, cash flow and scenario simulator over TechAcces SL | Python · MySQL · Pandas |
-| **[lead-scoring-ml](https://github.com/jleonceo/lead-scoring-ml)** | Predictive model to prioritise sales leads (XGBoost, AUC 0.92 verified with a replication script) | Python · ML · Jupyter |
-| **[RFM-Customer-Analytics](https://github.com/jleonceo/RFM-Customer-Analytics)** | Customer segmentation by Recency, Frequency and Monetary value, with associated business strategies | Python · Pandas |
-| **[accident-intelligent-agent](https://github.com/jleonceo/accident-intelligent-agent)** | Traffic-accident severity prediction in Madrid: ETL, EDA and predictive modelling | Python · ML · ETL |
-
-All together, explained and deployed, in **[portfolio-juan-luis](https://github.com/jleonceo/portfolio-juan-luis)** ([juanluisleon.vercel.app](https://juanluisleon.vercel.app)).
-
-### What I'm working on now
-
-- **Master's in AI and Automation**, Visual Business School (2026)
-- **Bachelor's in Data Science**, Universitat Carlemany (2nd year)
-- Building a complete **accounting automation** system: MySQL + Power BI + n8n + Claude
-- Evolving **AI Skill swarms** with continuous evaluation: golden sets, simulations and no-regression gates
-
-### Philosophy
-
-> *Well-trained skills endure. Models change and tools get updated, but the judgment built layer by layer stays.*
-
----
-
-Open to **Data Analytics** and **Business Intelligence** roles in **Tarragona and Barcelona** (on-site and hybrid).
+Webs: [portfolio](https://juanluisleon.vercel.app) ·
+[tu primer asistente de IA](https://github.com/jleonceo/tu-primer-asistente-ia-web) ·
+[currículum](https://github.com/jleonceo/cv)
