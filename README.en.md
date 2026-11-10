@@ -73,7 +73,7 @@ And a talk on AI skills at Codemarketers, on 26 June 2026.
 | [Swarm orchestration](https://github.com/jleonceo/orquestacion-enjambres-ia) | How each request is routed to the right agent without breaking as the system grows |
 | [Test set for an accounting AI](https://github.com/jleonceo/llm-eval-contable) | 50 cases and an automatic grader: the model went from 66 % to 100 % correct |
 | [Personal-data gate](https://github.com/jleonceo/pii-output-gate) | Stops any text carrying a valid Spanish ID number or IBAN, checking its control digit |
-| [Cash forecasting](https://github.com/jleonceo/tesoreria-forecast-ia) | An error of 4,334 € one month ahead, against 29,444 € for the usual method |
+| [Cash forecasting](https://github.com/jleonceo/tesoreria-forecast-ia) | An error of 4,334 € one month ahead, against 5,082 € for the same month of the previous year plus the trend |
 | [Accounting fraud detection](https://github.com/jleonceo/control-interno-fraude-ia) | Eight audit tests on the ledger, from split payments to Benford's law |
 | [Context management](https://github.com/jleonceo/claude-code-context-management) | What gets loaded into each AI work session and what is lost when it is summarised, measured |
 

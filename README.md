@@ -73,7 +73,7 @@ Y una charla sobre skills de IA en Codemarketers, el 26 de junio de 2026.
 | [Orquestación de enjambres](https://github.com/jleonceo/orquestacion-enjambres-ia) | Cómo se decide a qué agente va cada petición sin que falle al crecer |
 | [Examen para una IA contable](https://github.com/jleonceo/llm-eval-contable) | 50 casos y un corrector automático: el modelo pasó del 66 % al 100 % de aciertos |
 | [Portero de datos personales](https://github.com/jleonceo/pii-output-gate) | Impide que salga un texto con un DNI, un NIE o un IBAN válidos, comprobando su dígito de control |
-| [Previsión de tesorería](https://github.com/jleonceo/tesoreria-forecast-ia) | Un error de 4.334 € a un mes, frente a 29.444 € del método habitual |
+| [Previsión de tesorería](https://github.com/jleonceo/tesoreria-forecast-ia) | Un error de 4.334 € a un mes, frente a 5.082 € del mismo mes del año anterior más la tendencia |
 | [Detección de fraude contable](https://github.com/jleonceo/control-interno-fraude-ia) | Ocho pruebas de auditoría sobre el libro diario, de los pagos partidos a la ley de Benford |
 | [Gestión del contexto](https://github.com/jleonceo/claude-code-context-management) | Qué se carga en cada sesión de trabajo con IA y qué se pierde al resumirla, medido |
 
