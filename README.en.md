@@ -121,6 +121,10 @@ And a talk on AI skills at Codemarketers, on 26 June 2026.
 - 2026 · Data Analytics Mastery, AI Edition, Data Science for Business (DS4B).
 - 2022 – 2023 · Data Analytics Mastery and Python Data Science Mastery, Data Science for Business (DS4B).
 - Since 2022 · Bachelor's in Data Science, Universitat Carlemany. In progress.
+- 2022 · Data Scientist certification (big data analyst), Índice IFC Consultoría y Formación.
+- 2022 · Big Data II course, Índice IFC Consultoría y Formación.
+- 2022 · Business IT certification, Instituto Internacional de Intraemprendimiento I3.
+- 2021 – 2022 · Big Data course, ENEB.
 - 2008 · Microsoft MCAS certification: Access, Excel, Word and PowerPoint.
 - 1999 · Diploma in Labour Relations, Universitat Rovira i Virgili.
 - 1998 – 1999 · Advanced Course in Social Security and Labour Law, CEF. 450 hours.
