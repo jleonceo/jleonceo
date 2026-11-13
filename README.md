@@ -117,6 +117,7 @@ Y una charla sobre skills de IA en Codemarketers, el 26 de junio de 2026.
 ## Formación
 
 - 2026 · Máster en IA Aplicada y Optimización de Procesos Productivos, Visual Business School.
+- 2026 · Python Data Science Mastery, IA Edition, Data Science for Business (DS4B). En curso.
 - 2026 · Data Analytics Mastery, IA Edition, Data Science for Business (DS4B).
 - 2022 – 2023 · Data Analytics Mastery y Python Data Science Mastery, Data Science for Business (DS4B).
 - Desde 2022 · Grado en Ciencia de Datos, Universitat Carlemany. En curso.

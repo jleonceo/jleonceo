@@ -117,6 +117,7 @@ And a talk on AI skills at Codemarketers, on 26 June 2026.
 ## Education
 
 - 2026 · Master's in Applied AI and Production Process Optimisation, Visual Business School.
+- 2026 · Python Data Science Mastery, AI Edition, Data Science for Business (DS4B). In progress.
 - 2026 · Data Analytics Mastery, AI Edition, Data Science for Business (DS4B).
 - 2022 – 2023 · Data Analytics Mastery and Python Data Science Mastery, Data Science for Business (DS4B).
 - Since 2022 · Bachelor's in Data Science, Universitat Carlemany. In progress.
