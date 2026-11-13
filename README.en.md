@@ -114,5 +114,13 @@ And a talk on AI skills at Codemarketers, on 26 June 2026.
 - 1999 – 2011 · Accounting and IT trainer. Over 10,000 hours of training in accounting and computing for companies
   and public administration.
 
-Currently studying: Bachelor's in Data Science (Universitat Carlemany) and Master's in Applied AI and Production
-Process Optimisation (Visual Business School).
+## Education
+
+- 2026 · Master's in Applied AI and Production Process Optimisation, Visual Business School.
+- 2026 · Data Analytics Mastery, AI Edition, Data Science for Business (DS4B).
+- 2022 – 2023 · Data Analytics Mastery and Python Data Science Mastery, Data Science for Business (DS4B).
+- Since 2022 · Bachelor's in Data Science, Universitat Carlemany. In progress.
+- 2008 · Microsoft MCAS certification: Access, Excel, Word and PowerPoint.
+- 1999 · Diploma in Labour Relations, Universitat Rovira i Virgili.
+- 1998 – 1999 · Advanced Course in Social Security and Labour Law, CEF. 450 hours.
+- 1997 – 1998 · Specialisation in Cost, Financial and Tax Accounting, INTECT. 800 hours.
