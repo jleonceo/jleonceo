@@ -82,6 +82,8 @@ And a talk on AI skills at Codemarketers, on 26 June 2026.
 | Project | What it shows |
 |---|---|
 | [Sales, from a raw file to a dashboard](https://github.com/jleonceo/de-datos-en-bruto-a-decisiones) | Cleaning, analysis and statistical testing of seven years of sales, explained on [a website](https://de-datos-en-bruto-a-decisiones.vercel.app) |
+| [Store sales forecasting](https://github.com/jleonceo/store-sales-forecasting-ml) | Forecasts each day the sales of the next 8 days: one day ahead it is off by 7.45 units, against 10.43 for repeating the previous week |
+| [Short-term rentals in Madrid](https://github.com/jleonceo/alquiler-turistico-madrid) | Where to look for flats to rent to tourists: 256 listings in three neighbourhoods, with a median gross yield of 12.1 % before costs and taxes |
 | [Inventory replenishment](https://github.com/jleonceo/reposicion-inventario-prevision-ml) | Decides each day whether to order from the supplier: over a simulated half year, cost falls from 40,707 € to 9,340 € |
 | [Lead scoring](https://github.com/jleonceo/lead-scoring-ml) | Calling the top-scored 20 % reaches half of the buyers |
 | [Customer segmentation](https://github.com/jleonceo/RFM-Customer-Analytics) | Customers grouped by how recently, how often and how much they buy |

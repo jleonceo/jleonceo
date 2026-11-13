@@ -82,6 +82,8 @@ Y una charla sobre skills de IA en Codemarketers, el 26 de junio de 2026.
 | Proyecto | Qué demuestra |
 |---|---|
 | [Ventas, de un fichero en bruto a un cuadro de mando](https://github.com/jleonceo/de-datos-en-bruto-a-decisiones) | Limpieza, análisis y contraste estadístico de siete años de ventas, explicado en [una web](https://de-datos-en-bruto-a-decisiones.vercel.app) |
+| [Previsión de ventas por tienda](https://github.com/jleonceo/store-sales-forecasting-ml) | Prevé cada día las ventas de los 8 días siguientes: a un día vista se equivoca en 7,45 unidades, frente a 10,43 de repetir la semana anterior |
+| [Alquiler turístico en Madrid](https://github.com/jleonceo/alquiler-turistico-madrid) | Dónde buscar pisos para alquilar a turistas: 256 anuncios en tres barrios, con una rentabilidad bruta mediana del 12,1 % antes de gastos e impuestos |
 | [Reposición de inventario](https://github.com/jleonceo/reposicion-inventario-prevision-ml) | Decide cada día si pedir al proveedor: en un semestre simulado, el coste baja de 40.707 € a 9.340 € |
 | [Puntuación de clientes potenciales](https://github.com/jleonceo/lead-scoring-ml) | Llamando al 20 % mejor puntuado se llega a la mitad de los compradores |
 | [Segmentación de clientes](https://github.com/jleonceo/RFM-Customer-Analytics) | Clientes agrupados por lo reciente, lo frecuente y lo mucho que compran |
