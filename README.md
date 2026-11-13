@@ -2,7 +2,7 @@ English version: [README.en.md](README.en.md)
 
 # Juan Luis León Rodríguez
 
-### Controller financiero y analista de datos que construye sistemas de IA para la empresa
+### Controller financiero y analista de datos · Contabilidad · Business Intelligence · Sistemas de IA para la empresa
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jlleonrodriguez-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jlleonrodriguez/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-juanluisleon.vercel.app-111111?logo=vercel&logoColor=white)](https://juanluisleon.vercel.app)
