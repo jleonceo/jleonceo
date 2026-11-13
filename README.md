@@ -24,8 +24,8 @@ Vivo en Reus, Tarragona. Busco puestos de control de gestión, análisis de dato
 
 ### Agentes y enjambres
 
-Cinco equipos de agentes: contabilidad, análisis de datos, marketing, audiencias y programación. Cada uno tiene su
-orquestador. Por encima, un enrutador decide a qué equipo va cada tarea. En total son 55 skills de Claude.
+Seis equipos de agentes: contabilidad, análisis de datos, marketing, tesorería, programación y recursos humanos. Por
+encima, un enrutador decide a qué equipo va cada tarea. En total son 55 skills de Claude.
 
 En contabilidad trabajan cinco agentes con permisos separados. El que lee la factura no propone el asiento. El que lo
 verifica no puede escribir. El único que escribe lo hace en una tabla de borradores, y el paso al libro diario lo

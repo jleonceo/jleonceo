@@ -25,8 +25,8 @@ automation.
 
 ### Agents and swarms
 
-Five teams of agents: accounting, data analysis, marketing, audiences and software development. Each has its own
-orchestrator. Above them, a router decides which team each task goes to. In total there are 55 Claude skills.
+Six teams of agents: accounting, data analysis, marketing, treasury, software development and human resources.
+Above them, a router decides which team each task goes to. In total there are 55 Claude skills.
 
 Accounting runs on five agents with separate permissions. The one that reads the invoice does not propose the
 entry. The one that checks it cannot write. The only one that writes does so to a drafts table, and a person
