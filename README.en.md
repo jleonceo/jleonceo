@@ -51,7 +51,7 @@ and a detector warns when they fall due.
 
 ### Verification and evaluation
 
-695 test benches, all with cases that must fail. Mutation tests check that those benches really catch errors. Sums
+707 test benches, all with cases that must fail. Mutation tests check that those benches really catch errors. Sums
 and reconciliations are computed by tested code, never by the model. An in-house instrument even measures whether a
 text sounds machine-written, against 23 works written by people.
 

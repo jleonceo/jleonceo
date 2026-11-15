@@ -51,7 +51,7 @@ cuando vencen.
 
 ### Verificación y evaluación
 
-695 bancos de pruebas, todos con casos que tienen que fallar. Unas pruebas de mutación comprueban que esos bancos
+707 bancos de pruebas, todos con casos que tienen que fallar. Unas pruebas de mutación comprueban que esos bancos
 detectan errores de verdad. Las sumas y los cuadres los calcula código probado, nunca el modelo. Un instrumento
 propio mide incluso si un texto suena a máquina, contra 23 obras escritas por personas.
 
