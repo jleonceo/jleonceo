@@ -67,7 +67,7 @@ Y una charla sobre skills de IA en Codemarketers, el 26 de junio de 2026.
 
 | Proyecto | Qué demuestra |
 |---|---|
-| [Contabilidad con agentes de IA](https://github.com/jleonceo/accounting-agent-swarm) | Cuatro agentes que convierten facturas en asientos comprobados: 97,7 % de decisiones correctas sobre 128 documentos |
+| [Contabilidad con agentes de IA](https://github.com/jleonceo/accounting-agent-swarm) | Cinco agentes con permisos separados convierten facturas en asientos, y una persona aprueba cada uno. Con la versión de cuatro, 97,7 % de decisiones correctas en junio |
 | [Gobernanza de skills](https://github.com/jleonceo/gobernanza-skills-analiticas) | Las reglas para cambiar las instrucciones de un agente sin estropear lo que ya funcionaba |
 | [Guardianes verificados](https://github.com/jleonceo/guardianes-verificados-ia) | Comprueba que los guardianes de un agente bloquean de verdad lo que detectan, rompiéndolos a propósito |
 | [Orquestación de enjambres](https://github.com/jleonceo/orquestacion-enjambres-ia) | Cómo se decide a qué agente va cada petición sin que falle al crecer |

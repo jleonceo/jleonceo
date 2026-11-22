@@ -67,7 +67,7 @@ And a talk on AI skills at Codemarketers, on 26 June 2026.
 
 | Project | What it shows |
 |---|---|
-| [Accounting with AI agents](https://github.com/jleonceo/accounting-agent-swarm) | Four agents that turn invoices into checked entries: 97.7 % right decisions over 128 documents |
+| [Accounting with AI agents](https://github.com/jleonceo/accounting-agent-swarm) | Five agents with separate permissions turn invoices into entries, and a person approves each one. The four-agent version made 97.7% right decisions in June |
 | [Skill governance](https://github.com/jleonceo/gobernanza-skills-analiticas) | The rules for changing an agent's instructions without breaking what already worked |
 | [Verified guards](https://github.com/jleonceo/guardianes-verificados-ia) | Checks that an agent's guards really block what they detect, by breaking them on purpose |
 | [Swarm orchestration](https://github.com/jleonceo/orquestacion-enjambres-ia) | How each request is routed to the right agent without breaking as the system grows |
